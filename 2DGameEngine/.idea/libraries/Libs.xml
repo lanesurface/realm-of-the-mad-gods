@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Libs/tritonus_share.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/mp3spi1.9.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/jl1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

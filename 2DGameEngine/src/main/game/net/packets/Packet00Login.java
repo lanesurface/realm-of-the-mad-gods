@@ -1,9 +1,9 @@
 package main.game.net.packets;
 
-import main.game.net.game_client;
-import main.game.net.game_server;
+import main.game.net.GameClient;
+import main.game.net.GameServer;
 
-public class Packet00Login extends packet {
+public class Packet00Login extends Packet {
 	private String username;
 	
 	public Packet00Login(byte [] data) {
@@ -15,11 +15,11 @@ public class Packet00Login extends packet {
 		this.username = username;
 	}
 	@Override
-	public void writeData(game_client client) {
+	public void writeData(GameClient client) {
 		client.sendData(getData());
 	}
 	@Override
-	public void writeData(game_server server) {
+	public void writeData(GameServer server) {
 		server.sendDataToAllClients(getData());
 	}
 	public byte [] getData()	{

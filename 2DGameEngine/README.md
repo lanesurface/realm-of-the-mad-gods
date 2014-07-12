@@ -7,6 +7,4 @@ Runs at 60 FPS, you can find a light weight version at https://github.com/silico
 -----------------------------------------------------
 Published under the Apache v2 License, avalible for redistribution and/or modification
 -----------------------------------------------------
-All Zelda trademarks property of Nintendo Inc.
------------------------------------------------------
-CREDITS: Lane Surface: programmer, original sprites, director, consultant, level designer Logan Surface: finished sprites, level designer, graphic artist
+All Zelda trademarks are property of Nintendo Inc.
