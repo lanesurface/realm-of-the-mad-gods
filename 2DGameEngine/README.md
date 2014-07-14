@@ -1,5 +1,5 @@
 realm-of-the-mad-gods
----------------------
+======================
 A modern version of Zelda available in summer of 2014
 -----------------------------------------------------
 Original edition made in Java 7
