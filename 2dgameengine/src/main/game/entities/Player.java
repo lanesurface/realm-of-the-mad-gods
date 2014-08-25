@@ -48,7 +48,7 @@ public class Player extends Mob	{
 			if (getUsername().isEmpty())	{
 				System.out.println("Player: [Anonymous] died!");
 			}
-			//otherwise, return the username that the player game
+			//otherwise, return the username that the player gave
 			else	{
 				System.out.println("Player: ["+getUsername()+"] died!");
 			}
