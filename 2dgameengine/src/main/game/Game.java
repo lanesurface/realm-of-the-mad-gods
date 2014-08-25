@@ -95,8 +95,8 @@ public class Game extends Canvas implements Runnable	{
 		screen = new Screen(WIDTH,HEIGHT,new SpriteSheet("/sprite_sheet.png"));
 		input = new InputHandler(this);
 		//initialize background music
-		//bgMusic = new AudioPlayer("/Music/overworld.mp3");
-		//bgMusic.start();
+		bgMusic = new AudioPlayer("/Music/overworld.mp3");
+		bgMusic.start();
 		//load level
 		level = new Level("/levels/water_test_level_2.png");
 
